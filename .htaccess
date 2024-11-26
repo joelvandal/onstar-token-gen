@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^token/([a-zA-Z0-9]+)/?$ token.php?hash=$1 [L,QSA]
